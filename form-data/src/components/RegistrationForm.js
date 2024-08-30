@@ -27,7 +27,7 @@ const RegistrationForm = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:5000/register",
+        "https://mern-app-45ku.onrender.com/register",
         formData
       );
       alert("Registration successful");
